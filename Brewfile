@@ -4,7 +4,7 @@ tap 'caskroom/fonts'
 tap 'caskroom/versions'
 tap 'homebrew/bundle'
 tap 'homebrew/dupes'
-tap 'homebrew/php'
+# tap 'homebrew/php'
 
 # Install ZSH
 brew 'zsh'
@@ -34,35 +34,35 @@ brew 'trash'
 brew 'wget'
 
 # Development
-brew 'php71', args: ['with-debug']
-brew 'php71-intl'
-brew 'mariadb'
+# brew 'php71', args: ['with-debug']
+# brew 'php71-intl'
+# brew 'mariadb'
 
 # Apps
-cask 'aerial'
-cask 'alfred'
-cask 'caffeine'
-cask 'docker'
-cask 'dropbox'
-cask 'firefox'
-cask 'google-backup-and-sync'
-cask 'google-chrome'
-cask 'gpgtools'
-cask 'iterm2'
-cask 'mysqlworkbench'
-cask 'phpstorm'
-cask 'quip'
-cask 'sequel-pro'
-cask 'shuttle'
-cask 'slack'
-cask 'sublime-text'
-cask 'torbrowser'
-cask 'tower'
-cask 'transmit'
-cask 'vagrant'
-cask 'virtualbox'
-cask 'virtualbox-extension-pack'
-cask 'vlc'
+# cask 'aerial'
+# cask 'alfred'
+# cask 'caffeine'
+# cask 'docker'
+# cask 'dropbox'
+# cask 'firefox'
+# cask 'google-backup-and-sync'
+# cask 'google-chrome'
+# cask 'gpgtools'
+# cask 'iterm2'
+# cask 'mysqlworkbench'
+# cask 'phpstorm'
+# cask 'quip'
+# cask 'sequel-pro'
+# cask 'shuttle'
+# cask 'slack'
+# cask 'sublime-text'
+# cask 'torbrowser'
+# cask 'tower'
+# cask 'transmit'
+# cask 'vagrant'
+# cask 'virtualbox'
+# cask 'virtualbox-extension-pack'
+# cask 'vlc'
 
 # Quicklook
 cask 'qlcolorcode'
@@ -78,12 +78,12 @@ cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 
 # Install Mac App Store apps
-mas '1Password', id: 443987910
-mas 'Byword', id: 420212497
-mas 'Deckset', id: 847496013
-mas 'Gapplin', id: 768053424
-mas 'Giphy Capture', id: 668208984
-mas 'Paw', id: 584653203
-mas 'Sip', id: 507257563
-mas 'Sketch', id: 402476602
-mas 'Tweetbot', id: 557168941
+# mas '1Password', id: 443987910
+# mas 'Byword', id: 420212497
+# mas 'Deckset', id: 847496013
+# mas 'Gapplin', id: 768053424
+# mas 'Giphy Capture', id: 668208984
+# mas 'Paw', id: 584653203
+# mas 'Sip', id: 507257563
+# mas 'Sketch', id: 402476602
+# mas 'Tweetbot', id: 557168941
