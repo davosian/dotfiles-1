@@ -15,6 +15,9 @@ export PATH="node_modules/.bin:vendor/bin:$PATH"
 # Local bin directories before anything else
 export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 
+# yarn
+export PATH="$HOME/.yarn/bin:/usr/local/opt/ruby/bin:$PATH"
+
 # Load custom commands
 # Disabled this because I have no custom binaries at the moment.
 export PATH="$DOTFILES/bin:$PATH"
