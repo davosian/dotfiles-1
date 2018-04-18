@@ -13,7 +13,7 @@ export MANPAGER='less -X';
 export GREP_OPTIONS='--color=auto';
 
 # Vagrant default provider
-export VAGRANT_DEFAULT_PROVIDER='vmware_fusion';
+export VAGRANT_DEFAULT_PROVIDER='vmware_desktop';
 
 # JAVA_HOME for good measures
 export JAVA_HOME=$(/usr/libexec/java_home);
