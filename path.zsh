@@ -18,6 +18,10 @@ export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 # yarn
 export PATH="$HOME/.yarn/bin:/usr/local/opt/ruby/bin:$PATH"
 
+# this is needed for VS Code integrated terminal to play nice, however we are loosing colors in iTerm...
+# https://github.com/sorin-ionescu/prezto/issues/966#issuecomment-172003005<Paste>
+# export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+
 # Load custom commands
 # Disabled this because I have no custom binaries at the moment.
 export PATH="$DOTFILES/bin:$PATH"
